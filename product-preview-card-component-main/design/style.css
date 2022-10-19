@@ -1,0 +1,69 @@
+#contenedor{
+    max-width:1200px;
+	max-height: 900px;
+	background-color: cadetblue;
+	margin: auto;
+	padding 0.5em;
+}
+#contenido{
+    background-color: aqua;
+    margin: auto;
+    max-width: 1200px;
+    height: 900px;
+    border-radius: 20px;
+}
+#cont1{
+    min-width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url("../images/image-product-desktop.jpg ");
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#cont2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: coral;
+    border-radius: 20px;
+}
+#h1{
+    color: black;
+    font-style: Andale Mono;
+}
+
+.titulo{
+    color: chocolate;
+    font-style: arial Black;
+}
+.texto{
+    color: crimson;
+}
+button{
+    background-color: green;
+    color: black;
+    border-radius: 5%;
+}
+@media (max-width: 680PX)  {
+    #contenedor{
+        min-width: 100%;
+        height: 960px;
+        background-color: black;
+    }
+    #cont1{
+        min-width: 100%;
+        width: 686px;
+        height: 50%;
+        background-image: url("../images/image-product-mobile.jpg");
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+    #cont2{
+        min-width: 100%;
+        max-width: 440px;
+        height: 50%;
+        background-color: bisque;
+    }
+    
+}
