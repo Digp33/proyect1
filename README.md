@@ -1,2 +1,2 @@
 # proyect1
-Use of CSS and JavaScript with box model and responsive design
+Use of CSS and HTML with box model and responsive design
