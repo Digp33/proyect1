@@ -36,8 +36,15 @@
     color: chocolate;
     font-style: arial Black;
 }
+#tContenido{
+    align-items: center;
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
 .texto{
     color: crimson;
+
 }
 button{
     background-color: green;
